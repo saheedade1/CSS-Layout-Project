@@ -1,0 +1,268 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-links{
+    display: flex;
+    margin-bottom: 100px;
+}
+#logo img{
+    height: 30px;
+    padding: 15px 500px 0px 250px;
+}
+.top-links nav{
+    padding-top: 22px;
+    font-size: 20px;
+    
+}
+.top-links nav a{
+     text-decoration: none;
+     padding-right: 20px;
+     color: rgb(164, 165, 165);
+}
+#about{
+    color: rgb(93, 194, 194);
+}
+.top-links nav a:hover{
+    color: rgb(93, 194, 194);
+}
+.next-logo img{
+    height: 30px;
+    margin-left: 780px;   
+    margin-bottom: 15px;
+}
+.next-logo p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: rgb(93, 194, 194);
+}
+.grid{
+    margin: 0px 0px 60px 230px ;
+    display: flex;
+}
+#col1 p, #col2 p{
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    padding-right: 30px;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+#col2 p{
+    padding-right: 250px;
+}
+.people{
+    margin-left: 270px;
+    display: flex;
+}
+#patient, #doctor, #clinics{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 0px solid rgb(147, 216, 147);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+#patient{
+    margin-right: 20px;
+    background-color: rgb(99, 221, 221);
+    padding: 40px 0px 10px 40px;
+}
+#patient h1, p{
+    color: white;
+    font-size: 35px;
+}
+#patient p{
+    font-size: 25px;
+    margin: 0px 0px 80px 0px;
+}
+#doctor{
+    margin-right: 20px;
+    background-color: rgb(101, 101, 224);
+    padding: 40px 0px 10px 40px;
+}
+#doctor h1, p{
+    color: white;
+    font-size: 35px;
+}
+#doctor p{
+    font-size: 25px;
+    margin: 0px 0px 50px 0px;
+}
+#clinics{
+    margin-right: 20px;
+    background-color: rgb(10, 10, 88);
+    padding: 40px 0px 10px 40px;
+}
+#clinics h1, p{
+    color: white;
+    font-size: 35px;
+}
+#clinics p{
+    font-size: 25px;
+    margin: 0px 0px 40px 0px;
+}
+#form-1 label{
+    font-size: 15px;
+    padding-bottom: 0px 0px 20px 0px;
+}
+form label, #form-1 label{
+    color: white;
+    font-size: 20px;
+}
+.advert{
+    margin: 0px 0px 60px 280px;
+    display: flex;
+}
+#we p{
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(147, 216, 147);
+}
+#icons{
+    margin: 0px 0px 0px 350px;    
+}
+#icons img{
+    height:15px;
+    padding: 20px 20px 0px 0px;
+}
+.more-info{
+    height: 550px;
+    background-color: rgb(199, 251, 255);
+    display: flex;
+    margin: 0px 0px 100px 0px;
+}
+#info-1{
+    margin: 0px 100px 0px 200px;
+    width: 600px;
+}
+#info-1{
+    color: rgb(79, 221, 79);
+    font-size: 22px;
+}
+#info-1 p{
+    color: rgb(114, 112, 112);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0px 60px 0px;
+}
+#info-2{
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    background-color: burlywood; */
+}
+.cards{
+    /* display: flex; */
+}
+#card-1, #card-2, #card-3, #card-4{
+    width: 230PX;
+    height: 250px;
+    background-color: white;
+    margin: 25px 0px 0px 0px;
+}
+#card-3, #card-4{
+    margin: 10px 0px 0px 0px;
+}
+#card-1 p, #card-2 p, #card-3 p, #card-4 p{
+    color: rgb(114, 112, 112);
+    text-align: center;
+}
+#card-1 h3, #card-2 h3, #card-3 h3, #card-4 h3{
+    color: rgb(147, 216, 147);
+}
+
+#after-info {
+    color: rgb(147, 216, 147);
+    text-align: center;
+    font-size: 26px; 
+}
+#after-info2 {
+    color: rgb(114, 112, 112);
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 0px 120px 0px;
+    line-height: 25px;
+}
+.country{
+    display: flex;
+    margin: 0px 0px 10px 300px;
+}
+#warsaw, #barcelona, #munich {
+    width: 310px;
+    height: 350px;
+    padding: 0px 15px 0px 0px;
+}
+#warsaw:hover, #barcelona:hover, #munich:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+#img-but{
+    display: flex;
+}
+#img-but h4{
+    padding:0px 110px 0px 20px;
+    color: rgb(114, 112, 112);;
+}
+#img-but button{
+    height: 30px;
+    background-color:rgb(34, 146, 238);
+    color: white;
+    border: none;
+    margin: 30px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+}
+.country-2{
+    display: flex;
+    margin: 0px 0px 10px 300px;
+}
+.country-3{
+    display: flex;
+    margin: 0px 0px 150px 300px;
+}
+#persuade{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+#btn{
+    height: 40px;
+    background-color: rgb(34, 146, 238);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 11px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 100px 680px;
+}
+#leader, #cookies-info{
+    text-align: center;
+    font-size:14px;
+    color: rgb(114, 112, 112);
+    margin: 0px 0px 20px 0px;
+}
+#leader{
+    margin: 0px 0px 20px 0px;
+}
+#leader a{
+    text-decoration: none;
+}
+#leader a:hover{
+    text-decoration: underline;
+    color: rgb(99, 60, 60);
+}
+#cookies-info{
+    text-align: center;
+    font-size:14px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(114, 112, 112);;
+}
